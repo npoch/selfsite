@@ -18,5 +18,5 @@ const htmlHeader = require('../Includes/_header.html');
 $(function(){
     console.log('why isn\'t this working');
     // $('header').load('_header.html');
-    $('body').prependTo(htmlHeader);
+    $('body').prepend(htmlHeader);
   });
